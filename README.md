@@ -42,15 +42,20 @@ A modern, responsive portfolio template built with React, TypeScript, and Tailwi
 
 1\. Clone the repository:
 
+```
 git clone https://github.com/patrickhaahr/react-portfolio-template.git
+```
 
 2\. Install dependencies:
 
+```
 npm install
+```
 
 3\. Environment Setup
 
 Copy `.env.example` to `.env` in the root directory
+
 Copy `server/.env.example` to `server/.env`
 
 Update both `.env` files with your actual values:
@@ -59,16 +64,16 @@ Update both `.env` files with your actual values:
 - Set your email addresses
 - Adjust ports if needed
 
-5\. Start the development server:
+4\. Start the development server:
 
-## Start Express backend
-
+Start Express backend:
+```
 npm run server
-
-## Start React frontend
-
+```
+Start React frontend:
+```
 npm start
-
+```
 ## 📝 Configuration
 
 ### SendGrid Setup
